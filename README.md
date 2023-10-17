@@ -1,6 +1,6 @@
 # EX.7-IMPLEMENTATION-OF-SYSTEM-CALLS-READ-WRITE-FORK-OPEN-CLOSE
 
-AIM:
+## AIM:
 
 C program using open, read, write, close , create , fork() system calls.
 
@@ -57,7 +57,7 @@ cnt: length of buffer
 
 *File descriptor is integer that uniquely identifies an open file of the process.
 
-ALGORITHM:
+## ALGORITHM:
 
 1.Star the program.
 
@@ -77,7 +77,7 @@ close the file.
 
 7.Stop the program.
 
-PROGRAM:
+## PROGRAM:
 ``` 
 #include<sys/stat.h>
 
@@ -127,6 +127,11 @@ return 0;
 
 }
 ```
-OUTPUT:
+## OUTPUT:
 
-RESULT:
+
+![image](https://github.com/gokul-sureshkumar/EX.7-IMPLEMENTATION-OF-SYSTEM-CALLS-READ-WRITE-FORK-OPEN-CLOSE/assets/121148715/4e304455-f1a5-4981-bf13-d4e54da0774a)
+
+## RESULT:
+
+Thus, open, read, write, close , create , fork() system calls implemented successfully using c program.
